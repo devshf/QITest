@@ -1,0 +1,125 @@
+:root {
+    --navy: #164863;
+    --white: #fff;
+    --blue: #0111ff;
+    --softgray: #f3f5f7;
+    --softgray2: #ccd8e1;
+    --gray: #727379;
+    --fwbold: 700;
+    --fwextrabold: 800;
+    --fwsemibold: 600;
+    --fwmedium: 500;
+    --fwregular: 400;
+    --fwlight: 300;
+}
+
+.hero-section {
+    margin: 0;
+    /* padding-left: 75px; */
+    position: relative;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.hero-image {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.hero-section .col-lg-6 {
+    padding-top: 50px;
+}
+
+/* Style Quotes Section */
+.quotes-title {
+    color: #eae7b1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.deskripsi-quotes {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    color: #3c6255;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Mengurangi tinggi tombol accordion */
+.accordion-button {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+/* Menghapus warna biru pada tombol accordion */
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: inherit;
+}
+
+/* Mengatur gaya tombol ketika dibuka */
+.accordion-button {
+    background-color: transparent;
+    color: inherit;
+}
+
+/* Hover */
+.accordion-button:hover {
+    background-color: #eae7b1;
+    color: #3c6255;
+}
+
+.input-group .form-control {
+    height: 50px;
+    font-size: 14px;
+}
+
+.input-group-text {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group .form-control {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.hero-section h4 {
+    color: #eae7b1;
+    font-weight: 700;
+}
+
+.hero-section h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.hero-section p {
+    color: white;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+/* .card-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
